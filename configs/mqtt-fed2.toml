@@ -1,0 +1,20 @@
+redundancy = 2
+core_ann_interval = 10
+beacon_interval = 5
+cache_size = 5000
+
+[host]
+id = 2
+uri = "tcp://localhost:1882"
+
+[[neighbors]]
+id = 1
+uri = "tcp://localhost:1881"
+
+[[neighbors]]
+id = 3
+uri = "tcp://localhost:1883"
+
+[[neighbors]]
+id = 5
+uri = "tcp://localhost:1885"
