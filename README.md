@@ -15,6 +15,10 @@ go install github.com/nicolaskribas/mqtt-bm-latency@latest
 ```
 
 ```
+mqtt-fed -c configs/mqtt-fed5.toml
+```
+
+```
 beaconer -p 1883 -t "bm"
 ```
 
