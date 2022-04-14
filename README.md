@@ -23,6 +23,5 @@ beaconer -p 1888 -t "bm"
 ```
 
 ```
-mqtt-bm-latency --brokersub1 "tcp://localhost:1883" --brokersub2 "tcp://localhost:1888"
---brokerpub "tcp://localhost:1887" --count 1000 --pubqos 2 --subqos 2
+mqtt-bm-latency --brokersub1 "tcp://localhost:1883" --brokersub2 "tcp://localhost:1888" --brokerpub "tcp://localhost:1887" --count 1000 --pubqos 2 --subqos 2
 ```
